@@ -4,29 +4,19 @@ This project extracts **actionable tasks** from natural language diary or transc
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Detects **actionable intent** using common verbs and time expressions
-- 📆 Extracts structured fields:
+- Detects **actionable intent** using common verbs and time expressions
+- Extracts structured fields:
   - `task_text`: full task phrase
   - `due_date`: relative or absolute date (e.g., “tomorrow”, “by July”)
   - `status`: defaulted to `"pending"`
   - `category`: inferred context like `health`, `home`, `work`, etc.
   - `priority`: derived from urgency indicators (`low`, `medium`, `high`)
-- 🧪 Unit-tested with **>90% coverage** using Vitest
+- Unit-tested with **>90% coverage** using Vitest
 
 ---
-🧠 Explain Your Thinking
-How do you detect actionable intent?
-
-Actionable intent is detected using a combination of:
-	• Task-oriented verbs (e.g., call, schedule, submit, organize) matched via a curated set of keywords.
-	• Sentence segmentation to isolate individual actions from compound statements.
-	• Contextual clues (e.g., “I need to…”, “I should…”) that indicate the user is expressing a plan or intention.
-This approach allows the parser to filter meaningful tasks from casual or reflective statements.
-
-⸻
-## 🧠 Explain Your Thinking
+## Explain Your Thinking
 
 ### How do you detect actionable intent?
 
