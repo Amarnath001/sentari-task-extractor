@@ -49,3 +49,5 @@ With the structured task data:
 	•	A reminder system can trigger notifications based on due_date and priority
 	•	A daily or weekly summary can group tasks by category (e.g., health, home) or urgency
 	•	The system could even generate insights like: “You’ve scheduled 5 work tasks this week”
+
+⸻
